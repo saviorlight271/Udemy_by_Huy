@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+
+#container { 
+    width: 100%;
+}
+.header { 
+    width: 100%;
+    height: 30px;
+}
+.h1 {
+    width: 650px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-bottom: solid 1px #d1d7dc;
+}
+
+.content-box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.content-box .btn-login-with {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+
+.content-box .btn-login-with .btn {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: 1px 2px 2px 2px #aaaaaa;
+}
+.content-box .btn-login-with .btn:hover {
+    background-color: #f7f9fa;
+    color: #401b9c;
+}
+
+.content-box .form-group {
+    margin-top: 20px;
+}
+
+.content-box .form-group .input {
+    position: relative; 
+}
+
+.content-box .fa {
+    position: absolute;
+    z-index: 2;
+    line-height: 53px;
+    left: 10px;
+}
+
+.content-box .btn-login {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #a435f0;
+    border: none;
+    color: white;
+}
+.content-box .btn-login:hover {
+    color: #fff;
+    background-color: #7325a3;
+    border-color: transparent;
+}
+
+/* End */

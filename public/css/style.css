@@ -1,0 +1,120 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+
+#main {
+    width: 100%;
+}
+#header {
+    height: 75px;
+    background-color: white;
+    display: block;
+}
+/* NAVIGATION */
+#nav{
+    box-shadow: 0px 4px 5px #aaaaaa;
+}
+#nav li {
+    display: inline-block;
+}
+#nav li img{
+    margin-left: 30px;
+    height: 40px;
+}
+#nav li a {
+    color: black;
+    text-decoration: none;
+    line-height: 75px;
+    padding: 0 14px;
+    right: 50px;
+    display: inline-block;
+}
+#nav li:hover a {
+    color: #5624d0;
+    /* background-color: salmon; */
+}
+#nav .subnav{
+    display: none;
+}
+
+#nav .search {
+    width: 515px;
+    line-height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+#nav .input-icons i {
+    position: absolute;
+}
+#nav .input-icons .icon {
+    padding: 20px;
+    min-width: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.login-btn {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.login-btn a {
+    position: absolute;
+}
+.login-btn:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.signup-btn{
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(65, 58, 58);
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.signup-btn:hover {
+    background-color: black;
+}  
+.language-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.language-btn:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* BANNER */
+#banner {
+    position: relative;
+}
+#banner .content-box {
+    width: 330px;
+    height: 190px;
+    top: 0;
+    background-color: #fff;
+    margin: 20px 50px;
+    padding: 24px;
+    position: absolute;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+}
+#banner img{
+    background-size: contain;
+    padding: 0 5px;
+}
+
+#content {
+
+}
+#footer {
+
+}
+
